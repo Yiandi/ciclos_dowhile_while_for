@@ -22,3 +22,110 @@ while (condición);
 for (inicialización; condición; incremento)
 {
     // código que se rep
+}
+
+__switch_____________________________________________________________________
+
+
+switch (variable)
+{
+    case valor1:
+        // código
+        break;
+
+    case valor2:
+        // código
+        break;
+
+    default:
+        // código si no coincide ningún caso
+        break;
+}
+
+
+🟢 Ejercicios básicos
+1️⃣ Día de la semana
+Pide un número del 1 al 7 y muestra el día correspondiente.
+Ejemplo:
+1 → Lunes
+2 → Martes
+...
+7 → Domingo
+
+
+2️⃣ Menú de opciones
+Muestra este menú:
+1. Sumar
+2. Restar
+3. Multiplicar
+4. Dividir
+
+Pide una opción e imprime qué operación seleccionó el usuario usando switch.
+
+3️⃣ Vocal o no
+Pide una letra y usa switch para determinar si es una vocal.
+
+4️⃣ Calificación
+Pide una letra:
+A → Excelente
+B → Bien
+C → Regular
+D → Deficiente
+
+
+🟡 Ejercicios nivel medio
+5️⃣ Mes del año
+Pide un número del 1 al 12 y muestra el mes correspondiente.
+
+6️⃣ Calculadora simple
+Pide:
+
+Dos números
+Una opción (+, -, *, /)
+
+Usa switch para realizar la operación.
+
+7️⃣ Tipo de transporte
+Pide una opción:
+1. Carro
+2. Moto
+3. Bicicleta
+
+Y muestra un mensaje distinto para cada uno.
+
+🔵 Ejercicios con lógica
+8️⃣ Número de letras
+Pide una vocal y muestra cuántas letras tiene su nombre.
+Ej:
+a → tiene 1 letra
+e → tiene 1 letra
+
+💡 (Ejercicio para practicar agrupación de case)
+
+9️⃣ Horario del día
+Pide una opción:
+1 → Mañana
+2 → Tarde
+3 → Noche
+
+Muestra un mensaje según el horario.
+
+🔟 Menú repetitivo
+Combina switch con do while para mostrar un menú que se repita hasta que el usuario elija salir.
+
+🔥 Retos
+1️⃣1️⃣ Cajero automático
+Menú:
+1. Consultar saldo
+2. Depositar
+3. Retirar
+4. Salir
+
+Usa switch para manejar cada opción.
+
+1️⃣2️⃣ Conversor
+Pide una opción:
+1. Celsius a Fahrenheit
+2. Kilómetros a Millas
+3. Salir
+
