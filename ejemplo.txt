@@ -1,0 +1,24 @@
+txt
+
+
+while (condición)
+{
+    // código que se repite
+}
+
+
+
+
+do
+{
+    // código que se repite
+}
+while (condición);
+
+
+
+
+
+for (inicialización; condición; incremento)
+{
+    // código que se rep
